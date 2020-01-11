@@ -83,7 +83,6 @@ class FastStore:
                 if prev_node.empty():
                     self.dll.remove(prev_node)
                     self.count2node.pop(prev_count)
-            
 
     def minus(self, key):
         if key not in self.key2count:
